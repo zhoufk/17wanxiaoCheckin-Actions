@@ -37,7 +37,7 @@
 
 ```python
 # 获取健康打卡的参数
-json1 = {"businessType": "epmpics",
+json1 = {"businessType": "epmpics", 
         "jsonData": {"templateid": "pneumonia", "token": token},
         "method": "userComeApp"}
 post_dict = get_post_json(json1)
